@@ -1,8 +1,8 @@
 class productDetails {
-  late String title;
-  late String imageUrl;
-  late String details;
-  late int price;
+   String title;
+   String imageUrl;
+   String details;
+   int price;
 
   productDetails(
     this.title,

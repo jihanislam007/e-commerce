@@ -3,6 +3,7 @@ import 'package:e_commerce/DashBoard.dart';
 import 'package:flutter/material.dart';
 
 import 'productView/screesn/ProductView.dart';
+import 'productView/screesn/SearchWithList.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: ProductView()
+      home: SearchProduct()
+      //ProductView()
 
       //login()
     );
